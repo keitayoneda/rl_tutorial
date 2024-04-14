@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cartpole"
+version = "0.1.0"
+description = ""
+authors = ["yoneda keita <yoneda-keita863@g.ecc.u-tokyo.ac.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.2.2"
+gym = "^0.26.2"
+matplotlib = "^3.8.4"
+pygame = "^2.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
